@@ -20,7 +20,8 @@ Quatre choix, pris dans cet ordre, chacun validé par la personne avant le suiva
    phrase, un chiffre, un parcours, une rubrique que les autres sites n'ont pas. La refonte lui donne
    plus de place.
 2. **Une scène, tirée de sa vie.** Un lieu, un objet ou un phénomène que la personne connaît de
-   près, dessiné par du code, dans une seule matière graphique.
+   près, rendu comme une ambiance (une heure, une lumière, de la profondeur) dans une seule matière
+   graphique.
 3. **Une donnée vraie dans la scène.** Quelque chose de calculé ou de mesuré, exact à l'instant où on
    regarde. C'est ce détail qui fait revenir.
 4. **Des plages, jamais des valeurs fixes.** Chaque taille a un minimum et un maximum, et la page
@@ -88,4 +89,5 @@ front-end et lance son audit à la fin.
 - À 375 px, le nom et la phrase d'accroche se lisent sans défilement, bandeaux éventuels ouverts.
 - Avec `prefers-reduced-motion`, la scène montre une image fixe complète.
 - Sans JavaScript, le premier écran affiche le nom, l'accroche et les liens.
+- Une capture de la scène seule, sans le texte, tient comme fond d'écran.
 - La personne a regardé les captures et reconnaît son site.

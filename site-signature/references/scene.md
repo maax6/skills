@@ -30,6 +30,41 @@ Une bonne scène remplit quatre conditions :
 - **Elle se recadre.** Elle reste juste en portrait étroit, en 16:9 et en 21:9. Une scène décrite
   par du code se recompose à chaque taille, là où une photo est seulement rognée.
 
+## Une ambiance avant tout
+
+Le squelette de code plus bas ne décrit que la plomberie du canvas. Il ne dit rien du dessin, et un
+canvas vide invite à poser trois formes géométriques et un dégradé : ce résultat est un échec. La
+scène est une ambiance, avec une heure, une lumière et une météo, où l'on aurait envie de rester.
+
+Avant d'écrire le dessin, rédige pour la personne une note d'ambiance de cinq lignes et fais-la
+valider :
+
+- **Le moment** : l'heure, la saison, le temps qu'il fait.
+- **La lumière** : d'où elle vient, sa couleur, ce qu'elle touche et ce qu'elle laisse dans l'ombre.
+- **Les plans** : au moins trois profondeurs (lointain, milieu, premier plan), le lointain plus
+  pâle et moins détaillé.
+- **La palette** : cinq à huit couleurs nommées, tirées du moment choisi, dont l'accent du site.
+- **Ce qui vit** : le mouvement principal, et deux ou trois détails qu'on ne remarque qu'à la
+  deuxième visite.
+
+Ce qui donne de la densité :
+
+- du détail à trois échelles : les grandes masses, les objets, puis le grain (fenêtres, feuilles,
+  rivets, étoiles) ;
+- des irrégularités voulues : aucune rangée parfaitement alignée, aucun élément répété à
+  l'identique ;
+- une texture de matière sur toute l'image (grain, trame, joints, coups de pinceau), qui unifie
+  les plans ;
+- des sources de lumière situées dans la scène, qui éclairent ce qui les entoure.
+
+Compte plusieurs centaines de lignes de dessin et plusieurs passes. Si la matière choisie se prête
+mal au code (peinture, photo, illustration à la main), pars d'une image fournie ou validée par la
+personne et fais-la vivre : calques extraits de l'image, shader léger sur l'eau, le ciel ou la
+lumière. Le cycle de vie reste le même.
+
+Test à chaque passe : une capture de la scène seule, sans le texte, tiendrait-elle comme fond
+d'écran ? Tant que la réponse est non, continue le dessin avant de toucher au reste de la page.
+
 ## Construire la scène
 
 Structure du premier écran, à traduire dans la pile du projet :
