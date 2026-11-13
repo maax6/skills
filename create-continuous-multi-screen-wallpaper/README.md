@@ -17,8 +17,8 @@ Supports unequal pixel densities, portrait displays and offset layouts. Output p
 ## Install
 
 ```bash
-git clone https://github.com/maax6/create-continuous-multi-screen-wallpaper.git \
-  ~/.codex/skills/create-continuous-multi-screen-wallpaper
+git clone https://github.com/maax6/skills.git
+cp -R skills/create-continuous-multi-screen-wallpaper ~/.codex/skills/
 python3 -m pip install Pillow
 ```
 

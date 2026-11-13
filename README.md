@@ -1,13 +1,14 @@
 # Skills
 
-Deux skills pour agents de code (Claude Code et compatibles), écrits en français.
+Skills pour agents de code (Claude Code, Codex et compatibles).
 
 | Skill | À quoi il sert |
 |---|---|
 | [`site-signature`](site-signature/SKILL.md) | Refaire un site personnel : une scène d'accueil propre à son auteur, une mise en page qui tient de 320 px à la 4K. Découvre la pile technique du projet, fournit un script de contrôle sur dix tailles d'écran. |
 | [`ai-patterns-audit`](ai-patterns-audit/SKILL.md) | Éviter puis auditer les marqueurs de « design généré par IA » : liste datée et sourcée, règles de conception, scanner par motifs. |
+| [`create-continuous-multi-screen-wallpaper`](create-continuous-multi-screen-wallpaper/README.md) | Produire un fond d'écran continu sur deux ou trois moniteurs : géométrie physique, découpes à la taille exacte, contrôle des raccords. En anglais, avec son propre README. |
 
-Les deux vont ensemble : `site-signature` lit les règles d'`ai-patterns-audit` avant d'écrire du
+Les deux premiers vont ensemble : `site-signature` lit les règles d'`ai-patterns-audit` avant d'écrire du
 front-end et lance son audit à la fin.
 
 ## Installation
