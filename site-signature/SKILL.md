@@ -48,7 +48,10 @@ front-end et lance son audit à la fin.
    garde les captures comme point de départ. Résume à la personne ce qui est déjà bon et ce qui
    bride le site, mesures à l'appui.
 3. **Trouver la scène** : pose les questions de `references/scene.md`, une par message. Propose
-   ensuite trois pistes de deux phrases chacune. Aucun code avant son choix.
+   ensuite trois pistes de deux phrases chacune. Aucun code avant son choix. Si le site a déjà une
+   scène à lui, elle reste : passe-la au crible des quatre conditions et des règles de dessin du
+   même fichier, et corrige seulement ce qui manque (recadrage en portrait, donnée vraie, pause
+   hors écran).
 4. **Construire l'accueil** : la scène en plein écran, le nom, deux phrases, les liens. Le reste du
    contenu commence sous le premier écran.
 5. **Reprendre le reste de la page**, section par section, avec `references/responsive.md`.
